@@ -1,20 +1,79 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Elecxora 🗳️
 
-# Run and deploy your AI Studio app
+**A Secure, Transparent, and Anonymous Decentralized Voting System** built with **Blockchain** and **Zero-Knowledge Proofs**.
 
-This contains everything you need to run your app locally.
+## 🌟 Features
 
-View your app in AI Studio: https://ai.studio/apps/01347644-380e-4524-b1c4-c57b628dc708
+- **Anonymous Voting** using Zero-Knowledge Proofs (ZK)
+- **Immutable & Transparent** blockchain ledger
+- **Real-time Results** with live updates
+- **Voter Identity Protection** via cryptographic commitments
+- **Tamper-Proof** election system
+- **Fully Auditable** public ledger
+- Modern, responsive React + TypeScript UI
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React, TypeScript, Tailwind CSS, Framer Motion
+- **Blockchain**: Custom Proof-of-Work Blockchain
+- **Cryptography**: Zero-Knowledge Proofs, Pedersen Commitments, Nullifiers
+- **Real-time**: Socket.io
+- **Styling**: Modern glassmorphism + dark theme
 
+## 🚀 How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Voter Registration** → Creates a Zero-Knowledge identity commitment
+2. **Vote Casting** → Generates ZK proof proving vote is valid without revealing identity
+3. **Vote Submission** → Added to blockchain via consensus
+4. **Verification** → Anyone can verify the entire election on the public ledger
+
+## 🧪 How to Run Locally
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/rewati1616/Elexora---Voting-System.git
+cd Elexora---Voting-System
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## 🏗️ Project Structure
+
+src/
+├── components/          # Reusable UI components
+├── services/            # Blockchain & crypto services
+├── lib/                 # Utilities
+├── types.ts             # TypeScript interfaces
+└── main.tsx
+
+## 🔐 Zero-Knowledge Implementation
+
+Uses commitment scheme for voter registration
+Nullifier to prevent double voting
+ZK-SNARK style proof generation for anonymous vote validation
+
+## 🎯 Future Enhancements
+
+Smart contract integration (Ethereum/Solana)
+Mobile app support
+Multi-election support
+Advanced zk-SNARK circuits with Circom
+Voter registration via Aadhaar (India-specific)
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues and pull requests.
+## 📜 License
+This project is open-source and licensed under the MIT License.
+
+Made by Rewati for Digital Democracy
+Elexora — Bringing trust back to voting.
