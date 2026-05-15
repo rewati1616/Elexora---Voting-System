@@ -1,4 +1,4 @@
-# Elecxora 🗳️
+# Elexora 🗳️
 
 **A Secure, Transparent, and Anonymous Decentralized Voting System** built with **Blockchain** and **Zero-Knowledge Proofs**.
 
@@ -58,22 +58,22 @@ src/
 
 ## 🔐 Zero-Knowledge Implementation
 
-Uses commitment scheme for voter registration
-Nullifier to prevent double voting
-ZK-SNARK style proof generation for anonymous vote validation
+- **Commitment Scheme**: Used for secure voter registration without revealing identity
+- **Nullifier**: Prevents double voting while maintaining anonymity
+- **ZK-SNARK Style Proofs**: Generates cryptographic proofs for anonymous vote validation
 
 ## 🎯 Future Enhancements
 
-Smart contract integration (Ethereum/Solana)
-Mobile app support
-Multi-election support
-Advanced zk-SNARK circuits with Circom
-Voter registration via Aadhaar (India-specific)
+- Smart contract integration (Ethereum / Solana)
+- Mobile application support
+- Multi-election management system
+- Advanced zk-SNARK circuits using **Circom**
+- Aadhaar-based voter registration (India-specific)
 
 ## 🤝 Contributing
-Contributions are welcome! Feel free to open issues and pull requests.
-## 📜 License
-This project is open-source and licensed under the MIT License.
 
+Contributions are welcome! Feel free to open issues and submit pull requests.
+
+##
 Made by Rewati for Digital Democracy
 Elexora — Bringing trust back to voting.
