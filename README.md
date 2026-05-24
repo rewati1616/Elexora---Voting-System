@@ -2,7 +2,7 @@
 
 **A Secure, Transparent, and Anonymous Decentralized Voting System** built with **Blockchain** and **Zero-Knowledge Proofs**.
 
-## 🌟 Features
+## 🌟 Features 
   
 - **Anonymous Voting** using Zero-Knowledge Proofs (ZK) 
 - **Immutable & Transparent** blockchain ledger
