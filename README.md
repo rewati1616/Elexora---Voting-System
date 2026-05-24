@@ -4,7 +4,7 @@
 
 ## 🌟 Features
 
-- **Anonymous Voting** using Zero-Knowledge Proofs (ZK)
+- **Anonymous Voting** using Zero-Knowledge Proofs (ZK) 
 - **Immutable & Transparent** blockchain ledger
 - **Real-time Results** with live updates
 - **Voter Identity Protection** via cryptographic commitments
