@@ -24,7 +24,7 @@ import { formatHash, formatDate, cn } from './lib/utils';
 const StatusBadge = ({ label, active }: { label: string; active: boolean }) => (
   <div className="flex items-center gap-2.5 px-4 py-2 rounded-full border border-orange-400/30 bg-slate-900/80 hover:bg-slate-800 transition-colors">
     <div className={cn("w-2 h-2 rounded-full animate-pulse", active ? "bg-orange-400 shadow-[0_0_12px_rgba(45,212,191,0.8)]" : "bg-slate-500")} />
-    <span className="text-xs font-mono uppercase tracking-widest text-orange-400 font-semibold">{label}</span>
+    <span className="text-xs font-mono uppercase tracking-widest text-orange-400 font-semibold">{label}</span>   
   </div>
 );
 
