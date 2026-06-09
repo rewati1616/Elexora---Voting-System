@@ -86,7 +86,7 @@ function BlockchainNode(props: { block: Block; isNew: boolean }) {
       <div className="space-y-5">
         <div>
           <label className="text-xs uppercase tracking-widest text-slate-400 block mb-2 font-semibold">Hash</label>
-          <div className="font-mono text-sm text-slate-400 bg-slate-950 p-3 rounded-lg break-all border border-slate-700">
+          <div className="font-mono text-sm text-slate-300 bg-slate-950 p-3 rounded-lg break-all border border-slate-700">
             {block.hash}
           </div>
         </div>
