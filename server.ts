@@ -13,7 +13,6 @@ interface Vote {
   timestamp: number;
   electionId: string;
   zkProof: string;
-  
 }
 
 interface Block {
