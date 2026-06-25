@@ -23,6 +23,7 @@ interface Block {
   previousHash: string;
   hash: string;
   nonce: number;
+  
 }
 
 // In-Memory Registrar (Simulates a Smart Contract State)
